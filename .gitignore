@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build
+.next/
+frontend/.next/
+frontend/out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.local
+backend/.env
+
+# Temp files
+backend/tmp_uploads/
+tmp_uploads/
+*.tmp
+
+# Model weights (downloaded via setup script)
+backend/models/cv_models/*.caffemodel
+backend/models/cv_models/*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test artifacts
+_test_face.jpg
+_test.jpg
+backend/_test_face.jpg
+frontend/_test.jpg
+
+# Claude
+.claude/
